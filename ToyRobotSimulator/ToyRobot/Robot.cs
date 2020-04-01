@@ -75,7 +75,7 @@ namespace ToyRobotSimulator.ToyRobot
 
         public string Report()
         {
-            return $"Output: {Position.X},{Position.Y}{Direction.ToString().ToUpper()}";
+            return $"Output: {Position.X},{Position.Y},{Direction.ToString().ToUpper()}";
         }
     }
 }
